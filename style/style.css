@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container{
+    width: 88%;
+    margin-left: 5% ;
+    padding: 10px;
+    /* border: 1px solid red; */
+}
+
+.display{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+
+}
+
+.welcome-text{
+    color: green;
+    font-size: larger;
+    font-weight: 700;
+}
+.welcome-text2 a{
+    text-decoration: none;
+    margin: 5px;
+    font-weight: 700;
+    color: brown;
+}
+
+.section-1{
+    margin-top: 4%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.section-1 img{
+    margin-top: 14%;
+    border-radius: 10px;
+    box-shadow: 8px 8px 10px black;
+}
+.text{
+    padding: 10px 50px;
+}
+
+.text h2{
+    text-align: center;
+    padding: 2%;
+    color: brown;
+}
+
+.text-year{
+    text-align: center;
+    color: cadetblue;
+}
+.cata-text{
+    margin-top: 40px;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.section-menu{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.section-menu h2{
+    margin-bottom: 8%;
+    color: brown;
+}
+
+.section-menu h4{
+    margin-top: 10%;
+    color: cadetblue;
+}
+
+.section-menu p{
+    padding: 15px 0px;
+    color: grey;
+}
+
+.section-menu img{
+    border-radius: 10px;
+    box-shadow: 8px 8px 10px black;
+}
+
+.contact-section{
+    margin-top: 8%;
+    
+}
+
+.contact-section h2{
+    margin-bottom: 4%;
+    color: brown;
+}
+
+.contact-section p{
+    color: grey;
+    padding: 15px 0px;
+    line-height: 1.7;
+    font-size: 15px;
+}
+
+.contact-section h4{
+    color: cadetblue;
+    font-size: 16px;
+}
+
+.contact-section form input{
+    background-color: antiquewhite;
+    margin-top: 20px;
+    height: 50px;
+    border-radius: 2px;
+    width: 80%;
+    padding: 5px;
+}
+
+.button{
+    margin-top: 20px;
+    height: 40px;
+    width: 30vh;
+    color: tomato;
+    
+}
+
+footer{
+    padding: 40px;
+    text-align: center;
+    background-color: rgb(44, 43, 43);
+    color: white;
+    margin-top: 15px;
+}
